@@ -3,7 +3,10 @@ import { fileURLToPath, URL } from "node:url";
 import { defineConfig } from "vite";
 import UniPages from "@uni-helper/vite-plugin-uni-pages";
 import Components from "@uni-helper/vite-plugin-uni-components";
-import { WotV2Resolver } from "@uni-helper/vite-plugin-uni-components/resolvers";
+
+// import { WotV2Resolver } from "@uni-helper/vite-plugin-uni-components/resolvers";
+import { WotResolver } from "./wot-ui-resolver";
+
 import { ZPagingResolver } from "@uni-helper/vite-plugin-uni-components/resolvers";
 import { UniEchartsResolver } from "uni-echarts/resolver";
 import UniLayouts from "@uni-helper/vite-plugin-uni-layouts";
@@ -27,7 +30,7 @@ export default defineConfig({
 		// https://uni-helper.js.org/vite-plugin-uni-components
 		Components({
 			dts: true,
-			resolvers: [UniEchartsResolver(), ZPagingResolver(), WotV2Resolver()],
+			resolvers: [UniEchartsResolver(), ZPagingResolver(), WotResolver()],
 		}),
 		// https://uni-helper.js.org/vite-plugin-uni-layouts
 		UniLayouts(),

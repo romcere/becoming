@@ -19,3 +19,6 @@ dist
 *.njsproj
 *.sln
 *.sw?
+
+components.d.ts
+uni-pages.d.ts
