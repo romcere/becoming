@@ -1,3 +1,4 @@
+// 提交信息规范配置 https://commitlint.nodejs.cn/reference/configuration.html
 import { defineConfig } from "cz-git";
 
 export default defineConfig({

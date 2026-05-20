@@ -1,6 +1,7 @@
 {
+	// 启用JSONC语法
 	"files.associations": {
-		"pages.json": "jsonc",
-		"manifest.json": "jsonc"
+		"manifest.json": "jsonc",
+		"pages.json": "jsonc"
 	}
 }

@@ -1,3 +1,4 @@
+// app的配置文件 manifest.config.js https://uniapp.dcloud.net.cn/collocation/manifest.html
 import { defineManifestConfig } from "@uni-helper/vite-plugin-uni-manifest";
 
 export default defineManifestConfig({

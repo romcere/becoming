@@ -39,7 +39,10 @@ export default defineConfig({
 		// https://uni-helper.js.org/vite-plugin-uni-platform
 		UniPlatform(),
 		// https://github.com/uni-ku/root
-		UniRoot(),
+		UniRoot({
+			// 默认含后缀 .vue，直接设置命名即可
+			rootFileName: "AppRoot",
+		}),
 		// https://github.com/chouchouji/vite-plugin-component-placeholder
 		ComponentPlaceholder(),
 		// https://uni-echarts.xiaohe.ink

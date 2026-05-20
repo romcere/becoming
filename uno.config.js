@@ -1,3 +1,4 @@
+// unocss 原子化CSS https://unocss.nodejs.cn/guide/config-file
 import { defineConfig, presetIcons, transformerDirectives, transformerVariantGroup } from "unocss";
 
 import { presetUni } from "@uni-helper/unocss-preset-uni";
