@@ -91,17 +91,6 @@
 		"miniprogram-api-typings": "^5.1.2",
 		"sass": "^1.78.0",
 		"unocss": "66.0.0",
-		"vite": "5.2.8"
-	},
-	"pnpm": {
-		"overrides": {
-			"unconfig": "7.3.2"
-		}
-	},
-	"overrides": {
-		"unconfig": "7.3.2"
-	},
-	"resolutions": {
-		"unconfig": "7.3.2"
+		"vite": "6.4"
 	}
 }
